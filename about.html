@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutPage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <img class="hell" src="img/scholar.png" alt="">
+            <h1 class="nav-logo">GPREC</h1>
+              <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="courses.html">Courses</a></li>
+                      <li><a href="campus.html">Campus</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+              </div>
+              <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1 class="head">About us</h1>
+    </section>
+
+
+
+    <!-- about us -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the Bigggest college in Kunrool.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit maiores vitae nihil possimus, sequi quo, ducimus voluptates cupiditate veritatis praesentium, numquam unde excepturi corporis corrupti quasi ullam. Magnam, aliquid repudiandae. Nobis, incidunt ducimus. Facere molestias dolorum quas repellendus, vitae et aut aliquid! Quam est cupiditate alias excepturi ipsum ratione cumque recusandae, nesciunt deleniti autem asperiores culpa accusamus vero, nostrum laudantium quibusdam voluptatem id corporis doloremque. Aliquid recusandae nostrum quidem suscipit minima consequatur, aliquam illum incidunt laudantium hic commodi at laboriosam, eum nesciunt ratione doloremque impedit id voluptatum animi, placeat fuga vero porro dicta. Aut repellat non perspiciatis natus sequi fugiat.</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="img/gprec-banner1.jpg" alt="">
+        </div>
+    </div>
+</section>
+   
+
+    <section class="footer">
+ 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, fugiat est repellendus et minima accusamus! Lorem ipsum dolor sit amet</p>
+        <div class="icons">
+       <a href="#"> <i class="fa-solid fa-phone"></i></a>
+        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+         <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p>Made by L.Sai Vamshi Reddy.</p>
+      </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
